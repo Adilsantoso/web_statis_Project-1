@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div{
+    background:#000000 ;
+    height: 80px;
+    text-align: center;
+}
+ul{
+    text-size-adjust: 20px;
+    text-transform: uppercase;
+
+}
+div ul{
+    float: right;
+    margin-right: auto;
+}
+div ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+
+}
+div ul li a{
+    color: white;
+    font-size: 12px;
+    padding: 5px 13px;
+    border-radius: 2px;
+}
+:active,a:hover{
+    background: gray;
+    transition: 5ms;
+}
